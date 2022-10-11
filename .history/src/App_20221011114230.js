@@ -1,15 +1,13 @@
 
 import './App.css';
 import Add from './Add/Add';
-import Inventorycontainer from './Add/Inventorycontainer';
-
+import CmsCenter from './Add/CmsCenter';
 
 function App() {
   return (
     <div className="App">
     
-      {/* <Add/> */}
-      <Inventorycontainer/>
+      <Add/>
     </div>
   );
 }
